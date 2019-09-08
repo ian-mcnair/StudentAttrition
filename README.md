@@ -23,4 +23,4 @@ More detailed results can be found in the report itself, which is included in th
 - Although the school was interested in why students left, the scope of this study could only answer which students might leave. The why is needs to be inferred based on reports, potentially surveys of students, and other methods. 
 
 ### ROC Curves of 3 Models Used
-<img src="https://github.com/ian-mcnair/StudentAttrition/blob/master/Visualizations/ANN%20ROC.png" height="210"> <img src="https://github.com/ian-mcnair/StudentAttrition/blob/master/Visualizations/NB%20ROC.png" height="210"> <img src="https://github.com/ian-mcnair/StudentAttrition/blob/master/Visualizations/KNN%20ROC.png" height="210">
+<img src="https://github.com/ian-mcnair/StudentAttrition/blob/master/Visualizations/ANN%20ROC.png" height="200"> <img src="https://github.com/ian-mcnair/StudentAttrition/blob/master/Visualizations/NB%20ROC.png" height="200"> <img src="https://github.com/ian-mcnair/StudentAttrition/blob/master/Visualizations/KNN%20ROC.png" height="200">
