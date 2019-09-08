@@ -2,11 +2,11 @@
 ### Goal: To predict if a student would leave the institution based on non-private, general data.
 
 ## General Process
-1. Data was given to me by the DBA. Features included general studetn descriptors: Ethnicity, Gender, Age, Discipline, Zip Code, GPA, etc. It did not include financial, scholarship, or other private information.
+1. Data was given to me by the DBA. Features included general student descriptors: Ethnicity, Gender, Age, Discipline, Zip Code, GPA, etc. It did not include financial, scholarship, or other private information.
 2. Data was cleaned. Basic statistical charts and visualizations were made in order to explore data. Heatmaps were also created to give an overview of where students came from and locations that have higher turnover rates.
 3. Three ML models were explored, Artificial Neural Networks, Naive Bayes, and K-Nearest Neighbors. The results of these three were combined using a majority voting method, giving overall better results than any one model alone.
-4. Findings were coompiled along the way into three different reports, Data Collection, Data Explorations, and Final Forcasting Report. 
-5. A final research report was compiled to show teh scope of waht was done in this project.
+4. Findings were coompiled along the way into three different reports, Data Collection, Data Explorations, and Final Forcasting Report. The purpose of these was to inform administration using language and visuals they could easily grasp. 
+5. A final research report was compiled to show the scope of what was done in this project.
 
 ## Overall Results and Evaluation
 - 94% accuracy achieved for forecasting student turnover. Accuracy may be greater however, because students do not all leave at the same time. A follow up study cannot be done at this time.
