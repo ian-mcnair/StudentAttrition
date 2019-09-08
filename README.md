@@ -17,6 +17,10 @@ More detailed results can be found in the report itself, which is included in th
 
 ## Reflection of Study
 - Class Imbalance: There was overwhelming more students who stayed vs who left. This could have been better addressed with outlier analysis, however at the time of study, this method was not personally known to me. I tried to address this with over and undersampling, but it did not seem to change outcomes much. The biggest impactor was implementing majority voting to the final predictions.
+- Evaluation Metric: ROC Curve was probably not the best metric to use because of the class imbalance. Some form of Precision Recall and F1 Score would have probably been better.
 - Limited & Inconsistent Data: The data itself was completely human entered. There were mistakes for the zip codes, genders, levels of education. It was difficult to catch all of these, which could have impacted the results. The data itself did not contain some other important pieces of data, specifically related to finances. Knowing which students had scholarships and which lost those as well as parental socioeconomic level could have potentially added to the accuracy of predictions.
 - Timeframe of Study: The school actually went through a huge transition which also impacts how well the historal data actually reflects the current data. 
 - Although the school was interested in why students left, the scope of this study could only answer which students might leave. The why is needs to be inferred based on reports, potentially surveys of students, and other methods. 
+
+### ROC Curves of 3 Models Used
+<img src="https://github.com/ian-mcnair/StudentAttrition/blob/master/Visualizations/ANN%20ROC.png" height="210"> <img src="https://github.com/ian-mcnair/StudentAttrition/blob/master/Visualizations/NB%20ROC.png" height="210"> <img src="https://github.com/ian-mcnair/StudentAttrition/blob/master/Visualizations/KNN%20ROC.png" height="210">
